@@ -6,5 +6,5 @@ setup(name='dev_aberto_ericalp',
       packages=['dev_aberto'],
       scripts=['scripts/hello.py'],
       python_requires='>=3.12',
-      install_requires=['requests']
+      install_requires=['requests', 'setuptools','wheel'],
       )
